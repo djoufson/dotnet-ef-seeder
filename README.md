@@ -2,7 +2,7 @@
 
 ![Banner](./assets/banner.jpeg)
 
-This package setup a pattern of registering and executing seeders to populate a database with test data.
+This package defines a pattern to register and execute seeders to populate a database with test data.
 
 > Those coming from the Laravel world, the api is highly inspired by what is proposed in Laravel.
 

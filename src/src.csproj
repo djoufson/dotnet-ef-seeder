@@ -5,6 +5,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>EntityFrameworkCore.Seeder</RootNamespace>
+    <Title>EntityFrameworkCore.Seeder</Title>
+		<PackageId>EntityFrameworkCore.Seeder</PackageId>
+		<Description>This package defines a pattern to register and execute seeders to populate a database with test data</Description>
+		<Author>Djoufson Che</Author>
+		<PackageVersion>1.0.0</PackageVersion>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +20,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <None Include="..\README.md" Pack="true" PackagePath="\"/>
+      <None Include="..\LICENSE.txt" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
