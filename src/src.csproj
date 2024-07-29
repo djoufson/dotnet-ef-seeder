@@ -9,6 +9,7 @@
 		<PackageId>EntityFrameworkCore.Seeder</PackageId>
 		<Description>This package defines a pattern to register and execute seeders to populate a database with test data</Description>
 		<Author>Djoufson Che</Author>
+		<Authors>Djoufson Che</Authors>
 		<PackageVersion>1.0.1</PackageVersion>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
