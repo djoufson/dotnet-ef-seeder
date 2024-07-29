@@ -9,10 +9,11 @@
 		<PackageId>EntityFrameworkCore.Seeder</PackageId>
 		<Description>This package defines a pattern to register and execute seeders to populate a database with test data</Description>
 		<Author>Djoufson Che</Author>
-		<PackageVersion>1.0.0</PackageVersion>
+		<PackageVersion>1.0.1</PackageVersion>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,6 +26,7 @@
   <ItemGroup>
       <None Include="..\README.md" Pack="true" PackagePath="\"/>
       <None Include="..\LICENSE.txt" Pack="true" PackagePath="\"/>
+      <None Include="..\assets\logo.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>

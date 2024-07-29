@@ -1,10 +1,19 @@
 # Dotnet Ef Seeder
 
-![Banner](./assets/banner.jpeg)
+![Banner](https://raw.githubusercontent.com/djoufson/dotnet-ef-seeder/main/assets/banner.jpeg?token=GHSAT0AAAAAACSJE4E5ZPLGWNLLJKFQLK3GZVHXLNA)
 
 This package defines a pattern to register and execute seeders to populate a database with test data.
+[Find the package here](https://www.nuget.org/packages/EntityFrameworkCore.Seeder/#readme-body-tab)
 
 > Those coming from the Laravel world, the api is highly inspired by what is proposed in Laravel.
+
+## Installation
+
+The installation is pretty straight forward, enter the following command
+
+``` sh
+dotnet add package EntityFrameworkCore.Seeder
+```
 
 ## Usage
 
