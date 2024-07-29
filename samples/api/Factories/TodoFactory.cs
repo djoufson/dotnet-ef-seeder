@@ -1,7 +1,5 @@
 using Bogus;
-
 using EntityFrameworkCore.Seeder.Base;
-
 using Sample.Console.Models;
 
 namespace Sample.Console.Factories;

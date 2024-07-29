@@ -1,6 +1,4 @@
-
 using EntityFrameworkCore.Seeder.Base;
-
 using Sample.Console.Data;
 using Sample.Console.Factories;
 
