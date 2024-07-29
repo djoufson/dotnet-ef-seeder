@@ -1,6 +1,6 @@
 # Dotnet Ef Seeder
 
-![Banner](https://raw.githubusercontent.com/djoufson/dotnet-ef-seeder/main/assets/banner.jpeg?token=GHSAT0AAAAAACSJE4E5ZPLGWNLLJKFQLK3GZVHXLNA)
+![Banner](./assets/banner.jpeg)
 
 This package defines a pattern to register and execute seeders to populate a database with test data.
 [Find the package here](https://www.nuget.org/packages/EntityFrameworkCore.Seeder/#readme-body-tab)
