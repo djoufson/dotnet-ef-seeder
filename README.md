@@ -1,6 +1,6 @@
 # Dotnet Ef Seeder
 
-![Banner](./assets/banner.png)
+![Banner](./assets/banner.jpeg)
 
 This package setup a pattern of registering and executing seeders to populate a database with test data.
 
