@@ -30,6 +30,9 @@ jobs:
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
+    - name: Remove Sample projects
+      run: dotnet sln remove samples/api samples/console
+
     - name: Restore dependencies
       run: dotnet restore
 
