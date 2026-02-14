@@ -25,6 +25,10 @@ jobs:
       with:
         fetch-depth: 0  # Required for MinVer to calculate version from git history
 
+    - name: Unshallow Repository for MinVer
+      if: startsWith(github.ref, 'refs/tags/')
+      run: git fetch --unshallow --tags || git fetch --tags
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
