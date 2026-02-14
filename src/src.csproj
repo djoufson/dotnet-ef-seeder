@@ -9,7 +9,6 @@
     <Description>This package defines a pattern to register and execute seeders to populate a database with test data</Description>
     <Author>Djoufson Che</Author>
     <Authors>Djoufson Che</Authors>
-    <MinVerTagPrefix>v</MinVerTagPrefix>
     <MinVerVerbosity>normal</MinVerVerbosity>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
