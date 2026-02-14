@@ -1,8 +1,11 @@
 using Bogus;
-using EntityFrameworkCore.Seeder.Base;
-using Sample.Console.Models;
 
-namespace Sample.Console.Factories;
+using EntityFrameworkCore.Seeder.Base;
+
+using Sample.Api.Models;
+
+namespace Sample.Api.Factories;
+
 public class TodoFactory : Factory<Todo>
 {
     protected override Faker<Todo> BuildRules()

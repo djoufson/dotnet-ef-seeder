@@ -1,8 +1,9 @@
 using EntityFrameworkCore.Seeder.Base;
-using Sample.Console.Data;
-using Sample.Console.Factories;
 
-namespace Sample.Console.Seeders;
+using Sample.Api.Factories;
+using Sample.Console.Data;
+
+namespace Sample.Api.Seeders;
 public class TodoSeeder(AppDbContext appDbContext) : ISeeder
 {
     private readonly AppDbContext _appDbContext = appDbContext;

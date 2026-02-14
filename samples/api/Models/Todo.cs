@@ -1,4 +1,5 @@
-namespace Sample.Console.Models;
+namespace Sample.Api.Models;
+
 public class Todo
 {
     public int Id { get; set; }
